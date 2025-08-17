@@ -1,0 +1,12 @@
+---
+title: "Project Proposal Workshop"
+params:
+  class: "4-workshop-proposals"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r child = here::here("fragments", "placeholder.qmd")}
+```
