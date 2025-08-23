@@ -372,12 +372,13 @@ class: center
 
 .font80[
 
-- 2018 - Present Assistant Professor, Engineering Management & Systems Engineering
-- 2016-2018 Postdoc at [Institute for Sustainable Energy](https://www.bu.edu/ise/), Boston University
-- 2016 PhD in Engineering & Public Policy at Carnegie Mellon University
-- 2015 MS in Engineering & Public Policy at Carnegie Mellon University
-- 2010 BS in Engineering Science & Mechanics at Virginia Tech
-- Website: [www.jhelvy.com](https://www.jhelvy.com/)
+- 2025 - Present: Associate Professor, EMSE
+- 2018 - 2025: Assistant Professor, EMSE
+- 2016-2018: Postdoc at [Institute for Sustainable Energy](https://www.bu.edu/ise/), Boston University
+- 2016: PhD in Engineering & Public Policy at Carnegie Mellon University
+- 2015: MS in Engineering & Public Policy at Carnegie Mellon University
+- 2010: BS in Engineering Science & Mechanics at Virginia Tech
+- Website: [www.jhelvy.com](http://www.jhelvy.com/)
 
 ]]
 
@@ -462,7 +463,7 @@ You should be able to:
 
 --
 
-## `r fa('clock')` ~5 - 10 minutes
+## `r fa('clock')` 10 minutes
 
 --
 
@@ -482,7 +483,7 @@ You should be able to:
 
 --
 
-## 3) `r fa("pen-ruler")` [Final Project](https://eda.seas.gwu.edu/2023-Fall/project/0-overview.html) 
+## 3) `r fa("pen-ruler")` [Final Project](https://eda.seas.gwu.edu/2025-Fall/project/0-overview.html) 
 
 .leftcol[
 
@@ -651,7 +652,7 @@ background-color: #FFF
 
 --
 
-## `r fa('slack')` [Slack](https://emse-eda-f25.slack.com/): See bb for link to join;<br>install on phone and **turn notifications on**!
+## `r fa('slack')` [Slack](https://emse-eda-f25.slack.com/): **turn notifications on**!
 
 --
 
