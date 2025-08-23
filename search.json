@@ -664,11 +664,162 @@
     "text": "Due: Nov 10 by 11:59pm\nWeight: This assignment is worth 1% of your final grade.\nPurpose: The purpose of this assignment is to….\nAssessment: This assignment is graded using a check system:\n\n✔+ (110%): Responses shows phenomenal thought and engagement with the course content. I will not assign these often.\n✔ (100%): Responses are thoughtful, well-written, and show engagement with the course content. This is the expected level of performance.\n✔− (50%): Responses are hastily composed, too short, and/or only cursorily engages with the course content. This grade signals that you need to improve next time. I will hopefully not assign these often.\n\nNotice that this is essentially a pass/fail system. I’m not grading your writing ability and I’m not counting the number of words you write - I’m looking for thoughtful engagement. One or two sentences is not enough. Write at least a paragraph and show me that you did the readings assigned.\n\n\n1. Get Organized\nFollow these instructions:\n\nDownload and edit this template.\nUnzip the template folder. Make sure you actually unzip it! (in Windows, right-click it and use “extract all”)\nOpen the .Rproj file to open RStudio.\nInside RStudio, open the hw10.qmd file, take notes, and write some example code as you go through the readings / exercises below.\n\n\n\n2. Make a Plan\nNext week we will have a full-day in-class workshop to work on our projects. To prepare, instead of reading about new content, you should dedicate some time to meet with your team and make a plan for class next week.\nWe will have 2.5 hours - how are you going to use that time? Focus on things that require coordination across your team, and otherwise work on individual tasks and check each others’ work. Write out your plan by following these guidelines:\n\nRead through the feedback you received from your progress report.\nWrite down a bullet list of goals to achieve for your final report. Consider these questions. If any apply to your team, add that item to your plan:\n\nDo you need to modify your research question?\nDo you need other data sources to address all of the questions you have asked?\nHave you appropriately cleaned / prepared your data?\nAre you unsure about any code you’ve written (e.g. cleaning, joining data, making charts, etc.)? Would it be helpful to have Professor Helveston or one of the class TAs help review your code?\nTeams often separate tasks by person - for your coding tasks, have your other teammates reviewed the code you wrote to check for bugs?\nIs there a particular chart you’ve been working on but haven’t quite yet figured out how to code it up?\nIs there a better version of a chart you want to work on improving?\nIf you’re feeling confident about some parts of the analysis thus far, have you tried polishing up any charts? What can you do to an existing chart to make it communicate a message better?\nReview the content on visualizing information from weeks 6 - 11. Were there any specific types of charts that you think might work well with your project?\n\n\nThese are just some guidelines to consider - there may be other questions to ask yourself.\nYou should come up with your own list an include it here in your reflection. Bring your list with you to class so you can share it with your team. Once your teammates all agree, we can then break out and execute individual tasks towards moving your projects to the finish line!\n\n\n3. Submit\nTo submit your assignment, follow these instructions:\n\nRender your .qmd file by either clicking the “Render” button in RStudio or running the command quarto::quarto_render(\"hw10.qmd\") command.\nOpen the rendered html file and make sure it looks good! Is all the formatting as you expected?\nCreate a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard."
   },
   {
-    "objectID": "hw/1-tidy-data-temp.html",
-    "href": "hw/1-tidy-data-temp.html",
+    "objectID": "finding-data.html",
+    "href": "finding-data.html",
+    "title": "Finding Data",
+    "section": "",
+    "text": "The world is full of data, but sometimes finding it can be difficult. As a starting point, GW libraries has an excellent set of Research Guides that can be helpful. Depending on your research question, searching Google can also lead to good sources.\nHere are some other resources:\n\nLarge, search-able sites\nBasically like running a Google search but only for data sets:\n\nGoogle Dataset Search\nQuandl: Over 2 million financial, economic, and social datasets.\nWharton Research Data Services: Single-point access to over 200 terabytes of data across multiple disciplines, including Finance, Marketing, and Economics.\n\n\n\nWebsites\nA collection of various websites that have lots of interesting datasets:\n\n“Tidy Tuesday” challenges: Wide variety of datasets for data visualization practice. See many of the visualizations others have created here.\n“Makeover Monday” challenges: Wide variety of datasets for data visualization practice.\nTableau Community Forums: Sometimes you’ll find some interesting datasets in here.\n“Data is Beautiful” subreddit: Feed of user-generated data visualizations, though quality varies substantially.\nKaggle: Hosts machine learning competitions, and as a result has lots of really interesting data sets open to the public.\n\n\n\nPackages\nMany packages contain interesting datasets. If you can find a package with data, it will usually be nicely-formatted 😄\nHere is a table of lots of packages that contain multiple dataset. Some of my favorites are:\n\ndslabs\nDAAG\nMASS\n\nIn addition, some packages exclusively just contain datasets, such as:\n\nfivethirtyeight: Datasets and code published by the data journalism website ‘FiveThirtyEight’, available at https://github.com/fivethirtyeight/data\ngapminder\nbabynames\nnycflights13\nfueleconomy\nnasaweather\nusdanutrients\n\n\n\nGovernment-ish sources:\n“Government-ish” because while some of these sites host government data, the sites themselves may or may not be affiliated with a government agency:\n\nUS Open Gov Data: links to federal and non-federal sources in US and abroad\nUS City Open Data Census: Open data from more than 100 U.S. cities.\nOpen Africa\nEU Open Data Portal\nChina data: Various datasets on China posted by Gang He.\n\n\n\nEnergy data\nSince I happen to work with energy data a lot, here’s some common go-to sources:\n\nChina Energy Portal Statistics: Loads of energy statistics from China.\nU.S. Energy Information Administration: from Wikipedia: the “principal agency of the U.S. Federal Statistical System responsible for collecting, analyzing, and disseminating energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA programs cover data on coal, petroleum, natural gas, electric, renewable and nuclear energy. EIA is part of the U.S. Department of Energy.”\nEnvironmental Performance Index, Yale University: Ranks 163 countries on 25 performance indicators tracked across ten policy categories covering both environmental public health and ecosystem vitality. These indicators provide a gauge at a national government scale of how close countries are to established environmental policy goals.\n\n\n\nSpatial data\n\nhttp://freegisdata.rtwilson.com/\nhttps://data.nasa.gov/\nhttps://planet.parts/\nhttps://www.efi.int/knowledge/maps/forest\nhttps://land.copernicus.eu/\nhttps://maps.elie.ucl.ac.be/CCI/viewer/\nhttps://www.ecad.eu//dailydata/predefinedseries.php\nhttp://www.worldclim.org/version2\nhttps://www.geoportal.org/\nhttps://scihub.copernicus.eu/\nhttps://sedac.ciesin.columbia.edu/\nhttps://earthexplorer.usgs.gov/",
+    "crumbs": [
+      "Finding Data"
+    ]
+  },
+  {
+    "objectID": "course-primer.html",
+    "href": "course-primer.html",
+    "title": "Course Primer",
+    "section": "",
+    "text": "Students should have taken EMSE 4571 / 6571: Intro to Programming for Analytics prior to taking this course.\nFor those who did not, I strongly suggest you go through all the lessons in this primer course:\n\nR for Analytics Primer\n\nAfter completing these lessons, you should be able to:\n\nUse RStudio to write basic R commands.\nKnow the distinctions between different R operators and data types, including numeric, string, and logical data.\nUse tidyverse functions to wrangle and manipulate data in R.\nUse the ggplot2 library to create plots in R.\n\nAlso, it can be very helpful to see these skills applied in practice. Take a look at this example of using Tidyverse tools to explore and visualize data on survivors aboard the Titantic. It’s a good example of conducting an Exploratory Data Analysis to gain insights about a data set."
+  },
+  {
+    "objectID": "course-primer.html#this-assignment-is-optional",
+    "href": "course-primer.html#this-assignment-is-optional",
+    "title": "Course Primer",
+    "section": "",
+    "text": "Students should have taken EMSE 4571 / 6571: Intro to Programming for Analytics prior to taking this course.\nFor those who did not, I strongly suggest you go through all the lessons in this primer course:\n\nR for Analytics Primer\n\nAfter completing these lessons, you should be able to:\n\nUse RStudio to write basic R commands.\nKnow the distinctions between different R operators and data types, including numeric, string, and logical data.\nUse tidyverse functions to wrangle and manipulate data in R.\nUse the ggplot2 library to create plots in R.\n\nAlso, it can be very helpful to see these skills applied in practice. Take a look at this example of using Tidyverse tools to explore and visualize data on survivors aboard the Titantic. It’s a good example of conducting an Exploratory Data Analysis to gain insights about a data set."
+  },
+  {
+    "objectID": "class/9-trends.html",
+    "href": "class/9-trends.html",
+    "title": "Trends",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/7-factors-amounts-proportions.html",
+    "href": "class/7-factors-amounts-proportions.html",
+    "title": "Factors, Amounts, & Proportions",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/5-exploring-data.html",
+    "href": "class/5-exploring-data.html",
+    "title": "Exploring Data",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/3-cleaning-data.html",
+    "href": "class/3-cleaning-data.html",
+    "title": "Cleaning Data",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/15-final-presentations.html",
+    "href": "class/15-final-presentations.html",
+    "title": "Final Presentations",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/13-interactivity.html",
+    "href": "class/13-interactivity.html",
+    "title": "Interactivity",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/11-maps.html",
+    "href": "class/11-maps.html",
+    "title": "Maps",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/1-getting-started.html",
+    "href": "class/1-getting-started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "Licensing and copyright information",
+    "section": "",
+    "text": "The course material is licensed under the Creative Commons ShareAlike 4.0 International License. In addition to my own developed material, I have also modified material from the courses, workshops, and textbooks listed below:\n\nCourses / workshops\n\n\n\nName\nAuthor(s)\nLinks\n\n\n\n\nSTAT 545\nU. of British Columbia\ncourse; GitHub\n\n\nPatrick Meyer’s Youtube lectures\nProf. Patrick Meyer\nplaylists\n\n\nAndrew Heiss’s data viz courses\nAndrew Heiss\nMPA 635, more here\n\n\nIntro. to Data Visualization, Fall 2018\nPeter Aldhous\ncourse site\n\n\n\n\n\nBooks\n\n\n\nName\nAuthor(s)\nLinks\n\n\n\n\nR for Data Science\nGarrett Grolemund & Hadley Wickham\nonline book; GitHub; purchase\n\n\nData Visualization: A practical introduction\nKieran Healy\nonline book; GitHub; purchase\n\n\nFundamentals of Data Visualization\nClaus O. Wilke\nonline book; purchase",
+    "crumbs": [
+      "Other",
+      "License"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This course provides students with a foundation in exploring data using the R programming language. Students will learn how to source, manage, transform, and explore a wide variety of data types. Students will also master the fundamental concepts for visualizing and communicating information contained in raw data, including the human psychology of visual information processing. All analyses will be conducted to support reproducibility from raw data to results using Quarto (which is built on the ideas of RMarkdown). Teaching will involve interactive lectures with plenty of class time spent working on examples and coding. Students will be assessed through in-class quizzes, reading reflections, and exploratory projects. Throughout the semester, students will work on a research project of their own design to demonstrate mastery of the course’s topics. At the end of the semester, students will submit a final, reproducible report of their project along with a 10-minute video presentation of their findings.\nThis course was inspired by many other courses / resources that cover similar material. In addition to my own developed material, I have also modified material from other courses and workshops - a full list of sources can be found in the LICENSE page.\nThis course was originally created by Dr. John Paul Helveston at the George Washington University for the Spring 2020 semester.",
+    "crumbs": [
+      "Other",
+      "About"
+    ]
+  },
+  {
+    "objectID": "class/10-polishing-charts.html",
+    "href": "class/10-polishing-charts.html",
+    "title": "Polishing Charts",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/12-workshop-final-analysis.html",
+    "href": "class/12-workshop-final-analysis.html",
+    "title": "Final Analysis Workshop",
+    "section": "",
+    "text": "Follow your plan!\n\n\nWork on stuff!\n\n\nAsk for help!"
+  },
+  {
+    "objectID": "class/14-story-telling.html",
+    "href": "class/14-story-telling.html",
+    "title": "Story Telling",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/2-tidy-data.html",
+    "href": "class/2-tidy-data.html",
     "title": "Tidy Data",
     "section": "",
-    "text": "Due: Sep 01 by 11:59pm\nWeight: This assignment is worth 1% of your final grade.\nPurpose: The purpose of this assignment is to introduce yourself to the “tidy data” concept and to practice modifying data frames between long and wide formats in R.\nAssessment: This assignment is graded using a check system:\n\n✔+ (110%): Responses shows phenomenal thought and engagement with the course content. I will not assign these often.\n✔ (100%): Responses are thoughtful, well-written, and show engagement with the course content. This is the expected level of performance.\n✔− (50%): Responses are hastily composed, too short, and/or only cursorily engages with the course content. This grade signals that you need to improve next time. I will hopefully not assign these often.\n\nNotice that this is essentially a pass/fail system. I’m not grading your writing ability and I’m not counting the number of words you write - I’m looking for thoughtful engagement. One or two sentences is not enough. Write at least a paragraph and show me that you did the readings assigned.\n\n\n1. Software\nIf you haven’t yet, go to the Course Software page and install all the software we’ll need for this course. You’ll need these tools for this assignment.\n\n\n2. Get Organized\nFollow these instructions:\n\nDownload and edit this template.\nUnzip the template folder. Make sure you actually unzip it! (in Windows, right-click it and use “extract all”)\nOpen the .Rproj file to open RStudio.\nInside RStudio, open the hw1.qmd file, take notes, and write some example code as you go through the readings / exercises below.\n\n\n\n3. Readings & Exercises\n\nGetting Familiar with the Course: Follow Snoop’s advice and read the entire Course Syllabus (actually read the whole thing). Then review the schedule and make sure to note important upcoming deadlines.\nGetting Familiar with Tidy Data: Read this tidyverse article explaining the concept of tidy data. In your hw1.qmd, copy some of the examples into a code chunk and run them to see the results of converting data between long and wide formats.\nUse AI to Practice Reshaping Messy Data: Open ChatGPT, Claude, or whatever AI tools you prefer and start a chat to practice the concept of reshaping data into long and wide formats. Ask the AI questions about what it gives you to make sure you understand the concept. Are you certain the AI is giving you good code? Play around with it and see if chatting with the AI is helpful. Include the link to your chat in your submission if you have one. Here is an example prompt (feel free to experiment with other prompts):\n\n\nI'm practicing the concept of tidy data in R. Provide me an example dataset in wide format and then show me R code for how to convert it to long format. Afterwards, do the opposite - show me an example of a dataset in long format and show me R code for how to convert it to wide format.  In each case, explain your reasoning first, then show me the code.\n\n\nOptional\n\nChapter 6 in Hadley Wickham’s R4DS book covers more detail on the concept of tidy data with even more examples. It’s worth reading through for a more comprehensive understanding.\nChapter 3 in the YARDBook also covers tidy data.\nChapter 29 in Hadley Wickham’s R4DS book is a great introduction to Quarto. I highly recommend taking a look through it to get a better understanding of Quarto (we’ll be using it the whole semester!).\n\n\n\n\n4. Reflect\nReflect on what you’ve learned while going through these readings and exercises. Is there anything that jumped out at you? Anything you found particularly interesting or confusing? Write at least a paragraph in your hw1.qmd file, and include at least one question. The teaching team will review the questions we get and will try to answer them either in Slack or in class.\nIf you’re unsure where to start with a reflection, try filling out this template:\n\n“I used to think ______, now I think ______ 🤔”\n\n\n\n5. Submit\nTo submit your assignment, follow these instructions:\n\nRender your .qmd file by either clicking the “Render” button in RStudio or running the command quarto::quarto_render(\"hw1.qmd\") command.\nOpen the rendered html file and make sure it looks good! Is all the formatting as you expected?\nCreate a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard."
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/4-workshop-proposals.html",
+    "href": "class/4-workshop-proposals.html",
+    "title": "Project Proposal Workshop",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/6-visualizing-information.html",
+    "href": "class/6-visualizing-information.html",
+    "title": "Visualizing Information",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/8-comparisons.html",
+    "href": "class/8-comparisons.html",
+    "title": "Comparisons",
+    "section": "",
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "class/interviews.html",
+    "href": "class/interviews.html",
+    "title": "Final Interviews",
+    "section": "",
+    "text": "Due: Students will sign up for individual meetings during finals week (Dec 08 - 09).\nWeight: This assignment is worth 10% of your final grade.\nAssessment: Your submission will be assessed using the rubric at the bottom of this page.\n\nThe instructor will hold a 10-minute one-on-one interview with each student. The interview will consist of questions about your final project as well as questions about core concepts covered during the course.\nSome suggestions:\n\nBring water to drink - it will calm you when you are nervous and your mouth dries up. You can also pause and think while you drink.\nDon’t answer right away - think a bit.\nAnswer the question asked. Don’t try to impress or I will ask more questions.\nDon’t say “I don’t know.” Try and I will help you.\n\n\nGrading Rubric\n\n100 Total Points\nYou will be asked 10 questions; for each question, you will be assigned points based on this scale:\n\n\n\nPoints\nDescription\n\n\n\n\n10\nAnswers immediately and correctly without hesitation\n\n\n9\nAnswers correctly after some initial struggles\n\n\n8\nAnswers mostly correct after some time\n\n\n7\nAnswers mostly correct after some time and some help\n\n\n6\nAnswers mostly correctly after considerable help\n\n\n5\nPoor or partial answer, even after considerable help\n\n\n0\nCannot answer even with considerable help"
   },
   {
     "objectID": "faq.html",
@@ -801,169 +952,11 @@
     ]
   },
   {
-    "objectID": "class/interviews.html",
-    "href": "class/interviews.html",
-    "title": "Final Interviews",
-    "section": "",
-    "text": "Due: Students will sign up for individual meetings during finals week (Dec 08 - 09).\nWeight: This assignment is worth 10% of your final grade.\nAssessment: Your submission will be assessed using the rubric at the bottom of this page.\n\nThe instructor will hold a 10-minute one-on-one interview with each student. The interview will consist of questions about your final project as well as questions about core concepts covered during the course.\nSome suggestions:\n\nBring water to drink - it will calm you when you are nervous and your mouth dries up. You can also pause and think while you drink.\nDon’t answer right away - think a bit.\nAnswer the question asked. Don’t try to impress or I will ask more questions.\nDon’t say “I don’t know.” Try and I will help you.\n\n\nGrading Rubric\n\n100 Total Points\nYou will be asked 10 questions; for each question, you will be assigned points based on this scale:\n\n\n\nPoints\nDescription\n\n\n\n\n10\nAnswers immediately and correctly without hesitation\n\n\n9\nAnswers correctly after some initial struggles\n\n\n8\nAnswers mostly correct after some time\n\n\n7\nAnswers mostly correct after some time and some help\n\n\n6\nAnswers mostly correctly after considerable help\n\n\n5\nPoor or partial answer, even after considerable help\n\n\n0\nCannot answer even with considerable help"
-  },
-  {
-    "objectID": "class/8-comparisons.html",
-    "href": "class/8-comparisons.html",
-    "title": "Comparisons",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/6-visualizing-information.html",
-    "href": "class/6-visualizing-information.html",
-    "title": "Visualizing Information",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/4-workshop-proposals.html",
-    "href": "class/4-workshop-proposals.html",
-    "title": "Project Proposal Workshop",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/2-tidy-data.html",
-    "href": "class/2-tidy-data.html",
-    "title": "Tidy Data",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/14-story-telling.html",
-    "href": "class/14-story-telling.html",
-    "title": "Story Telling",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/12-workshop-final-analysis.html",
-    "href": "class/12-workshop-final-analysis.html",
-    "title": "Final Analysis Workshop",
-    "section": "",
-    "text": "Follow your plan!\n\n\nWork on stuff!\n\n\nAsk for help!"
-  },
-  {
-    "objectID": "class/10-polishing-charts.html",
-    "href": "class/10-polishing-charts.html",
-    "title": "Polishing Charts",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This course provides students with a foundation in exploring data using the R programming language. Students will learn how to source, manage, transform, and explore a wide variety of data types. Students will also master the fundamental concepts for visualizing and communicating information contained in raw data, including the human psychology of visual information processing. All analyses will be conducted to support reproducibility from raw data to results using Quarto (which is built on the ideas of RMarkdown). Teaching will involve interactive lectures with plenty of class time spent working on examples and coding. Students will be assessed through in-class quizzes, reading reflections, and exploratory projects. Throughout the semester, students will work on a research project of their own design to demonstrate mastery of the course’s topics. At the end of the semester, students will submit a final, reproducible report of their project along with a 10-minute video presentation of their findings.\nThis course was inspired by many other courses / resources that cover similar material. In addition to my own developed material, I have also modified material from other courses and workshops - a full list of sources can be found in the LICENSE page.\nThis course was originally created by Dr. John Paul Helveston at the George Washington University for the Spring 2020 semester.",
-    "crumbs": [
-      "Other",
-      "About"
-    ]
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "Licensing and copyright information",
-    "section": "",
-    "text": "The course material is licensed under the Creative Commons ShareAlike 4.0 International License. In addition to my own developed material, I have also modified material from the courses, workshops, and textbooks listed below:\n\nCourses / workshops\n\n\n\nName\nAuthor(s)\nLinks\n\n\n\n\nSTAT 545\nU. of British Columbia\ncourse; GitHub\n\n\nPatrick Meyer’s Youtube lectures\nProf. Patrick Meyer\nplaylists\n\n\nAndrew Heiss’s data viz courses\nAndrew Heiss\nMPA 635, more here\n\n\nIntro. to Data Visualization, Fall 2018\nPeter Aldhous\ncourse site\n\n\n\n\n\nBooks\n\n\n\nName\nAuthor(s)\nLinks\n\n\n\n\nR for Data Science\nGarrett Grolemund & Hadley Wickham\nonline book; GitHub; purchase\n\n\nData Visualization: A practical introduction\nKieran Healy\nonline book; GitHub; purchase\n\n\nFundamentals of Data Visualization\nClaus O. Wilke\nonline book; purchase",
-    "crumbs": [
-      "Other",
-      "License"
-    ]
-  },
-  {
-    "objectID": "class/1-getting-started.html",
-    "href": "class/1-getting-started.html",
-    "title": "Getting Started",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/11-maps.html",
-    "href": "class/11-maps.html",
-    "title": "Maps",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/13-interactivity.html",
-    "href": "class/13-interactivity.html",
-    "title": "Interactivity",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/15-final-presentations.html",
-    "href": "class/15-final-presentations.html",
-    "title": "Final Presentations",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/3-cleaning-data.html",
-    "href": "class/3-cleaning-data.html",
-    "title": "Cleaning Data",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/5-exploring-data.html",
-    "href": "class/5-exploring-data.html",
-    "title": "Exploring Data",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/7-factors-amounts-proportions.html",
-    "href": "class/7-factors-amounts-proportions.html",
-    "title": "Factors, Amounts, & Proportions",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "class/9-trends.html",
-    "href": "class/9-trends.html",
-    "title": "Trends",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "course-primer.html",
-    "href": "course-primer.html",
-    "title": "Course Primer",
-    "section": "",
-    "text": "Students should have taken EMSE 4571 / 6571: Intro to Programming for Analytics prior to taking this course.\nFor those who did not, I strongly suggest you go through all the lessons in this primer course:\n\nR for Analytics Primer\n\nAfter completing these lessons, you should be able to:\n\nUse RStudio to write basic R commands.\nKnow the distinctions between different R operators and data types, including numeric, string, and logical data.\nUse tidyverse functions to wrangle and manipulate data in R.\nUse the ggplot2 library to create plots in R.\n\nAlso, it can be very helpful to see these skills applied in practice. Take a look at this example of using Tidyverse tools to explore and visualize data on survivors aboard the Titantic. It’s a good example of conducting an Exploratory Data Analysis to gain insights about a data set."
-  },
-  {
-    "objectID": "course-primer.html#this-assignment-is-optional",
-    "href": "course-primer.html#this-assignment-is-optional",
-    "title": "Course Primer",
-    "section": "",
-    "text": "Students should have taken EMSE 4571 / 6571: Intro to Programming for Analytics prior to taking this course.\nFor those who did not, I strongly suggest you go through all the lessons in this primer course:\n\nR for Analytics Primer\n\nAfter completing these lessons, you should be able to:\n\nUse RStudio to write basic R commands.\nKnow the distinctions between different R operators and data types, including numeric, string, and logical data.\nUse tidyverse functions to wrangle and manipulate data in R.\nUse the ggplot2 library to create plots in R.\n\nAlso, it can be very helpful to see these skills applied in practice. Take a look at this example of using Tidyverse tools to explore and visualize data on survivors aboard the Titantic. It’s a good example of conducting an Exploratory Data Analysis to gain insights about a data set."
-  },
-  {
-    "objectID": "finding-data.html",
-    "href": "finding-data.html",
-    "title": "Finding Data",
-    "section": "",
-    "text": "The world is full of data, but sometimes finding it can be difficult. As a starting point, GW libraries has an excellent set of Research Guides that can be helpful. Depending on your research question, searching Google can also lead to good sources.\nHere are some other resources:\n\nLarge, search-able sites\nBasically like running a Google search but only for data sets:\n\nGoogle Dataset Search\nQuandl: Over 2 million financial, economic, and social datasets.\nWharton Research Data Services: Single-point access to over 200 terabytes of data across multiple disciplines, including Finance, Marketing, and Economics.\n\n\n\nWebsites\nA collection of various websites that have lots of interesting datasets:\n\n“Tidy Tuesday” challenges: Wide variety of datasets for data visualization practice. See many of the visualizations others have created here.\n“Makeover Monday” challenges: Wide variety of datasets for data visualization practice.\nTableau Community Forums: Sometimes you’ll find some interesting datasets in here.\n“Data is Beautiful” subreddit: Feed of user-generated data visualizations, though quality varies substantially.\nKaggle: Hosts machine learning competitions, and as a result has lots of really interesting data sets open to the public.\n\n\n\nPackages\nMany packages contain interesting datasets. If you can find a package with data, it will usually be nicely-formatted 😄\nHere is a table of lots of packages that contain multiple dataset. Some of my favorites are:\n\ndslabs\nDAAG\nMASS\n\nIn addition, some packages exclusively just contain datasets, such as:\n\nfivethirtyeight: Datasets and code published by the data journalism website ‘FiveThirtyEight’, available at https://github.com/fivethirtyeight/data\ngapminder\nbabynames\nnycflights13\nfueleconomy\nnasaweather\nusdanutrients\n\n\n\nGovernment-ish sources:\n“Government-ish” because while some of these sites host government data, the sites themselves may or may not be affiliated with a government agency:\n\nUS Open Gov Data: links to federal and non-federal sources in US and abroad\nUS City Open Data Census: Open data from more than 100 U.S. cities.\nOpen Africa\nEU Open Data Portal\nChina data: Various datasets on China posted by Gang He.\n\n\n\nEnergy data\nSince I happen to work with energy data a lot, here’s some common go-to sources:\n\nChina Energy Portal Statistics: Loads of energy statistics from China.\nU.S. Energy Information Administration: from Wikipedia: the “principal agency of the U.S. Federal Statistical System responsible for collecting, analyzing, and disseminating energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment. EIA programs cover data on coal, petroleum, natural gas, electric, renewable and nuclear energy. EIA is part of the U.S. Department of Energy.”\nEnvironmental Performance Index, Yale University: Ranks 163 countries on 25 performance indicators tracked across ten policy categories covering both environmental public health and ecosystem vitality. These indicators provide a gauge at a national government scale of how close countries are to established environmental policy goals.\n\n\n\nSpatial data\n\nhttp://freegisdata.rtwilson.com/\nhttps://data.nasa.gov/\nhttps://planet.parts/\nhttps://www.efi.int/knowledge/maps/forest\nhttps://land.copernicus.eu/\nhttps://maps.elie.ucl.ac.be/CCI/viewer/\nhttps://www.ecad.eu//dailydata/predefinedseries.php\nhttp://www.worldclim.org/version2\nhttps://www.geoportal.org/\nhttps://scihub.copernicus.eu/\nhttps://sedac.ciesin.columbia.edu/\nhttps://earthexplorer.usgs.gov/",
-    "crumbs": [
-      "Finding Data"
-    ]
-  },
-  {
     "objectID": "hw/1-tidy-data.html",
     "href": "hw/1-tidy-data.html",
     "title": "Tidy Data",
     "section": "",
-    "text": "Coming soon!"
+    "text": "Due: Sep 01 by 11:59pm\nWeight: This assignment is worth 1% of your final grade.\nPurpose: The purpose of this assignment is to introduce yourself to the “tidy data” concept and to practice modifying data frames between long and wide formats in R.\nAssessment: This assignment is graded using a check system:\n\n✔+ (110%): Responses shows phenomenal thought and engagement with the course content. I will not assign these often.\n✔ (100%): Responses are thoughtful, well-written, and show engagement with the course content. This is the expected level of performance.\n✔− (50%): Responses are hastily composed, too short, and/or only cursorily engages with the course content. This grade signals that you need to improve next time. I will hopefully not assign these often.\n\nNotice that this is essentially a pass/fail system. I’m not grading your writing ability and I’m not counting the number of words you write - I’m looking for thoughtful engagement. One or two sentences is not enough. Write at least a paragraph and show me that you did the readings assigned.\n\n\n1. Software\nIf you haven’t yet, go to the Course Software page and install all the software we’ll need for this course. You’ll need these tools for this assignment.\n\n\n2. Get Organized\nFollow these instructions:\n\nDownload and edit this template.\nUnzip the template folder. Make sure you actually unzip it! (in Windows, right-click it and use “extract all”)\nOpen the .Rproj file to open RStudio.\nInside RStudio, open the hw1.qmd file, take notes, and write some example code as you go through the readings / exercises below.\n\n\n\n3. Readings & Exercises\n\nGetting Familiar with the Course: Follow Snoop’s advice and read the entire Course Syllabus (actually read the whole thing). Then review the schedule and make sure to note important upcoming deadlines.\nGetting Familiar with Tidy Data: Read this tidyverse article explaining the concept of tidy data. In your hw1.qmd, copy some of the examples into a code chunk and run them to see the results of converting data between long and wide formats.\nUse AI to Practice Reshaping Messy Data: Open ChatGPT, Claude, or whatever AI tools you prefer and start a chat to practice the concept of reshaping data into long and wide formats. Ask the AI questions about what it gives you to make sure you understand the concept. Are you certain the AI is giving you good code? Play around with it and see if chatting with the AI is helpful. Include the link to your chat in your submission if you have one. Here is an example prompt (feel free to experiment with other prompts):\n\n\nI'm practicing the concept of tidy data in R. Provide me an example dataset in wide format and then show me R code for how to convert it to long format. Afterwards, do the opposite - show me an example of a dataset in long format and show me R code for how to convert it to wide format.  In each case, explain your reasoning first, then show me the code.\n\n\nOptional\n\nChapter 6 in Hadley Wickham’s R4DS book covers more detail on the concept of tidy data with even more examples. It’s worth reading through for a more comprehensive understanding.\nChapter 3 in the YARDBook also covers tidy data.\nChapter 29 in Hadley Wickham’s R4DS book is a great introduction to Quarto. I highly recommend taking a look through it to get a better understanding of Quarto (we’ll be using it the whole semester!).\n\n\n\n\n4. Reflect\nReflect on what you’ve learned while going through these readings and exercises. Is there anything that jumped out at you? Anything you found particularly interesting or confusing? Write at least a paragraph in your hw1.qmd file, and include at least one question. The teaching team will review the questions we get and will try to answer them either in Slack or in class.\nIf you’re unsure where to start with a reflection, try filling out this template:\n\n“I used to think ______, now I think ______ 🤔”\n\n\n\n5. Submit\nTo submit your assignment, follow these instructions:\n\nRender your .qmd file by either clicking the “Render” button in RStudio or running the command quarto::quarto_render(\"hw1.qmd\") command.\nOpen the rendered html file and make sure it looks good! Is all the formatting as you expected?\nCreate a zip file of all the files in your R project folder for this assignment and submit it on the corresponding assignment submission on Blackboard."
   },
   {
     "objectID": "hw/10-project-workshop.html",
