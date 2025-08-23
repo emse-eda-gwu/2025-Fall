@@ -442,11 +442,11 @@ You should be able to:
 
 # Course website
 
-## `r fa('globe')` Everything you need will be on the course website:<br>https://eda.seas.gwu.edu/2024-Fall/
+## `r fa('globe')` Everything you need will be on the course website:<br>https://eda.seas.gwu.edu/2025-Fall/
 
 --
 
-## `r fa('calendar')` The [schedule](https://emse-eda-gwu.github.io/2024-Fall/schedule.html) is the best starting point
+## `r fa('calendar')` The [schedule](https://emse-eda-gwu.github.io/2025-Fall/schedule.html) is the best starting point
 
 ---
 
@@ -474,7 +474,7 @@ You should be able to:
 
 --
 
-## 1) `r fa("book")` Weekly Homework / Readings: [HW1](https://eda.seas.gwu.edu/2024-Fall/hw/1-tidy-data.html)
+## 1) `r fa("book")` Weekly Homework / Readings: [HW1](https://eda.seas.gwu.edu/2025-Fall/hw/1-tidy-data.html)
 
 --
 
@@ -496,10 +496,10 @@ You should be able to:
 
 Item            | Due Date
 ----------------|---------------
-Proposal        | Sep 22
-Progress Report | Oct 27
-Final Report    | Dec 08
-Presentation    | Dec 11
+Proposal        | Sep 21
+Progress Report | Oct 26
+Final Report    | Dec 07
+Presentation    | Dec 09
 
 ]
 
@@ -528,7 +528,7 @@ background-color: #FFF
 # .center[Grades]
 
 <center>
-<img src="https://eda.seas.gwu.edu/2024-Fall/figs/grade-breakdown-1.png" width=90%>
+<img src="https://eda.seas.gwu.edu/2025-Fall/figs/grade-breakdown-1.png" width=90%>
 </center>
 
 ---
@@ -614,7 +614,7 @@ background-color: #FFF
 
 --
 
-## `r fa('slack')` Use [Slack](https://emse-eda-f24.slack.com/) to ask questions.
+## `r fa('slack')` Use [Slack](https://emse-eda-f25.slack.com/) to ask questions.
 
 --
 
@@ -634,11 +634,11 @@ background-color: #FFF
 
 ---
 
-# `r fa('hard-drive')` [Course Software](https://eda.seas.gwu.edu/2024-Fall/software.html)
+# `r fa('hard-drive')` [Course Software](https://eda.seas.gwu.edu/2025-Fall/software.html)
 
 --
 
-## `r fa('slack')` [Slack](https://emse-eda-f24.slack.com/): See bb for link to join;<br>install on phone and **turn notifications on**!
+## `r fa('slack')` [Slack](https://emse-eda-f25.slack.com/): See bb for link to join;<br>install on phone and **turn notifications on**!
 
 --
 
@@ -656,9 +656,9 @@ class: inverse
 
 # .center[.fancy[Break]]
 
-1. If you haven't already, install everything on the [software page](https://eda.seas.gwu.edu/2024-Fall/software.html)
+1. If you haven't already, install everything on the [software page](https://eda.seas.gwu.edu/2025-Fall/software.html)
 
-2. Stand up, meet each other, (maybe form teams?...use [this sheet](https://docs.google.com/spreadsheets/d/15pn9VNtYBG3XF-1OhvdKLMoNj4hOTXCGf4U1KNx0Tco/edit?usp=sharing))
+2. Stand up, meet each other, (maybe form teams?...use [this sheet](https://docs.google.com/spreadsheets/d/1pPfVs7bBcbA-L1Hp6sXcYg2ybTBsRmpfcXdF2oBf7xQ/edit?usp=sharing))
 
 ```{r, echo=FALSE}
 countdown(
