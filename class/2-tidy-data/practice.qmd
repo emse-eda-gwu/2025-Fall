@@ -61,6 +61,9 @@ Now modify the format of each:
 - If the data are in "long" format, convert it to "wide" with `pivot_wider()`
 
 ```{r}
+head(pv_cells)
+head(milk_production)
+
 # Write code here
 ```
 
@@ -84,6 +87,9 @@ Now convert the data into a tidy (long) structure, then create the following sum
 - Mean GDP in each year.
 
 ```{r}
+glimpse(gapminder)
+glimpse(gdp)
+
 # Write code here
 ```
 
@@ -104,5 +110,8 @@ fed_spending <- read_csv(here::here('data', 'fed_spend_wide.csv'))
 Now convert the data into a tidy (long) structure, then create the following charts
 
 ```{r}
+glimpse(lotr)
+glimpse(fed_spending)
+
 # Write code here
 ```

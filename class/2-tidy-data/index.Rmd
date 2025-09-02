@@ -285,8 +285,9 @@ head(fed_spend_long)
 ```{r}
 fed_spend_wide <- fed_spend_long %>%
     pivot_wider(
-        names_from = department,  #<<
-        values_from = rd_budget_mil) #<<
+        names_from  = department,  #<<
+        values_from = rd_budget_mil #<<
+    ) 
 
 head(fed_spend_wide)
 ```
@@ -318,9 +319,10 @@ head(fed_spend_wide)
 ```{r}
 fed_spend_long <- fed_spend_wide %>%
     pivot_longer( 
-        names_to = "department", #<<
+        names_to  = "department", #<<
         values_to = "rd_budget_mil", #<< 
-        cols = DOD:Other) #<<
+        cols      = DOD:Other #<<
+    )
 
 head(fed_spend_long)
 ```
@@ -343,10 +345,11 @@ names(fed_spend_wide)
 
 ```{r}
 fed_spend_long <- fed_spend_wide %>%
-    pivot_longer(
-        names_to = "department", 
-        values_to = "rd_budget_mil",
-        cols = -year) #<<
+    pivot_longer( 
+        names_to  = "department", 
+        values_to = "rd_budget_mil", 
+        cols      = -year #<<
+    )
 
 head(fed_spend_long)
 ```
@@ -482,6 +485,37 @@ Compute the total R&D spending by department in each year
 .leftcol[
 
 ```{r}
+annual_spending <- fed_spend_wide %>%
+    pivot_longer(
+        names_to = "department", 
+        values_to = "rd_budget_mil",
+        cols = -year
+    ) %>% 
+    group_by(year) %>%
+    summarise(total = sum(rd_budget_mil))
+```
+
+]
+
+.rightcol[
+
+```{r}
+head(annual_spending)
+```
+
+]
+
+---
+
+# Tidy data wrangling
+
+Compute the total R&D spending by department in each year
+
+**Approach 2**: Reshape first, then summarise
+
+.leftcol[
+
+```{r}
 total <- fed_spend_wide %>%
     pivot_longer(
         names_to = "department", 
@@ -507,7 +541,7 @@ class: inverse
 
 ```{r, echo=FALSE}
 countdown(
-    minutes      = 15,
+    minutes      = 12,
     warn_when    = 15,
     update_every = 1,
     top          = 0,
@@ -778,7 +812,7 @@ class: inverse
 
 ```{r, echo=FALSE}
 countdown(
-    minutes      = 10,
+    minutes      = 8,
     warn_when    = 15,
     update_every = 1,
     top          = 0,
@@ -865,30 +899,4 @@ Follow [these guidelines](https://writingcenter.gmu.edu/guides/how-to-write-a-re
 
 class: inverse, middle, center
 
-# Use [this link](https://docs.google.com/spreadsheets/d/15pn9VNtYBG3XF-1OhvdKLMoNj4hOTXCGf4U1KNx0Tco/edit?usp=sharing) to form teams
-
----
-
-.leftcol[
-
-<br>
-<center>
-<img src="images/car-size.png" width=100%>
-</center>
-
-]
-
-.rightcol[
-
-<br>
-
-## Project idea: car bloat
-
-#### Data: Webscraped from [Car and Driver](https://www.caranddriver.com/)
-
-Summary: 
-
-- [This tweet thread](https://x.com/curious_founder/status/1830623332892299510?t=keukWxtrhC-CMEeHAwbOtg&s=19)
-- [This youtube video](https://youtu.be/C5q_l8SXar0?si=fXvDE3NQVnemcm_y)
-
-]
+# Use [this link](https://docs.google.com/spreadsheets/d/1pPfVs7bBcbA-L1Hp6sXcYg2ybTBsRmpfcXdF2oBf7xQ/edit?usp=sharing) to form teams
