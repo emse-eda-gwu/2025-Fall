@@ -55,7 +55,6 @@ Ukraine,2019,88437
 United Arab Emirates,2019,198520
 United Kingdom,2019,2311140
 United States Of America,2019,4719710
-Usmca (Former Nafta),2019,5980349
 Uzbekistan,2019,147827
 Vietnam,2019,233782
 Argentina,2020,232112
@@ -114,7 +113,6 @@ Ukraine,2020,85450
 United Arab Emirates,2020,129901
 United Kingdom,2020,1631064
 United States Of America,2020,3401838
-Usmca (Former Nafta),2020,4253021
 Uzbekistan,2020,146250
 Vietnam,2020,217193
 Argentina,2021,240671
@@ -173,7 +171,6 @@ Ukraine,2021,103262
 United Arab Emirates,2021,156780
 United Kingdom,2021,1647181
 United States Of America,2021,3350050
-Usmca (Former Nafta),2021,4190767
 Uzbekistan,2021,138377
 Vietnam,2021,207693
 Argentina,2022,260822
@@ -204,7 +201,7 @@ Italy,2022,1316919
 Japan,2022,3448297
 Kazakhstan*,2022,97169
 Kuwait,2022,93465
-Malaysia,2022,544838
+Malaysia,2022,641773
 Mexico,2022,486962
 Morocco,2022,143265
 Netherlands,2022,312497
@@ -232,22 +229,21 @@ Ukraine,2022,37891
 United Arab Emirates,2022,171414
 United Kingdom,2022,1614063
 United States Of America,2022,2858575
-Usmca (Former Nafta),2022,3604020
 Uzbekistan,2022,153750
 Vietnam,2022,283352
-Argentina,2023,274728
+Argentina,2023,266541
 Australia,2023,890823
 Austria,2023,239150
 Belgium,2023,476674
 Brazil,2023,1721400
-Bulgaria,2023,35764
-Canada,2023,262159
+Bulgaria,2023,37724
+Canada,2023,255642
 Chile,2023,218642
 China,2023,26062824
 Colombia,2023,144633
 Croatia,2023,57694
 Czech Republic,2023,221419
-Denmark,2023,172798
+Denmark,2023,172745
 Ecuador,2023,98018
 Egypt,2023,69175
 Finland,2023,87509
@@ -257,16 +253,16 @@ Greece,2023,134484
 Hungary,2023,107720
 India,2023,4101600
 Indonesia,2023,779326
-Ireland,2023,122310
-Israel,2023,270433
-Italy,2023,1565331
+Ireland,2023,122400
+Israel,2023,284476
+Italy,2023,1567151
 Japan,2023,3992727
-Kazakhstan*,2023,164000
+Kazakhstan*,2023,189174
 Kuwait,2023,112969
-Malaysia,2023,604000
-Mexico,2023,598091
+Malaysia,2023,719145
+Mexico,2023,598215
 Morocco,2023,145218
-Netherlands,2023,372156
+Netherlands,2023,369631
 New Zealand,2023,110230
 Norway,2023,126953
 Pakistan,2023,58562
@@ -275,22 +271,79 @@ Philippines,2023,282507
 Poland,2023,475032
 Portugal,2023,199623
 Puerto Rico,2023,96319
-Romania,2023,142791
-Russia,2023,1049917
+Romania,2023,143080
+Russia,2023,1049968
 Saudi Arabia,2023,645723
 Slovakia,2023,88003
-South Africa,2023,347388
+South Africa,2023,347377
 South Korea,2023,1489363
-Spain,2023,949359
-Sweden,2023,289827
+Spain,2023,949362
+Sweden,2023,289820
 Switzerland,2023,252214
 Taiwan,2023,372800
-Thailand,2023,406501
+Thailand,2023,406992
 Turkey,2023,967341
 Ukraine,2023,60862
 United Arab Emirates,2023,225386
 United Kingdom,2023,1903054
 United States Of America,2023,3116647
-Usmca (Former Nafta),2023,3976897
 Uzbekistan,2023,146456
 Vietnam,2023,290071
+Argentina,2024,274958
+Australia,2024,898950
+Austria,2024,253789
+Belgium,2024,448277
+Brazil,2024,1948681
+Bulgaria,2024,42941
+Canada,2024,254195
+Chile,2024,209154
+China,2024,27562989
+Colombia,2024,164897
+Croatia,2024,65020
+Czech Republic,2024,231597
+Denmark,2024,173114
+Ecuador,2024,75986
+Egypt,2024,81475
+Finland,2024,74064
+France,2024,1718412
+Germany,2024,2817331
+Greece,2024,137075
+Hungary,2024,121611
+India,2024,4274793
+Indonesia,2024,672986
+Ireland,2024,121196
+Israel,2024,284825
+Italy,2024,1559229
+Japan,2024,3725200
+Kazakhstan*,2024,188149
+Kuwait,2024,110813
+Malaysia,2024,747180
+Mexico,2024,635900
+Morocco,2024,157087
+Netherlands,2024,381227
+New Zealand,2024,87514
+Norway,2024,128687
+Pakistan,2024,97417
+Peru,2024,106411
+Philippines,2024,351565
+Poland,2024,551568
+Portugal,2024,209715
+Puerto Rico,2024,100817
+Romania,2024,151105
+Russia,2024,1550249
+Saudi Arabia,2024,705527
+Slovakia,2024,93409
+South Africa,2024,351556
+South Korea,2024,1439773
+Spain,2024,1016885
+Sweden,2024,269582
+Switzerland,2024,239535
+Taiwan,2024,376470
+Thailand,2024,340056
+Turkey,2024,980341
+Ukraine,2024,69599
+United Arab Emirates,2024,268876
+United Kingdom,2024,1952778
+United States Of America,2024,2984039
+Uzbekistan,2024,166058
+Vietnam,2024,291797
