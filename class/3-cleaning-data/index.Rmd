@@ -124,41 +124,6 @@ state_abbs_50 <- state_abbs %>%
 
 ---
 
-class: inverse
-
-# Quiz 1
-
-```{r, echo=FALSE}
-countdown(
-    minutes = 10,
-    warn_when = 30,
-    update_every = 1,
-    bottom = 0,
-    left = 0,
-    font_size = '4em'
-)
-```
-
-.leftcol[
-
-### Download the template from the #class channel
-
-### Make sure you unzip it!
-
-### When done, submit your `quiz1.qmd` on Blackboard
-
-]
-
-.rightcol[
-
-<center>
-<img src="https://github.com/emse-p4a-gwu/2022-Spring/raw/main/images/quiz_doge.png" width="400">
-</center>
-
-]
-
----
-
 class: center, middle, inverse
 
 # .fancy[.blue[Tip of the week]]
@@ -962,11 +927,6 @@ glimpse(hot_dogs)
 
 ---
 
-```{r child="topics/4.Rmd"}
-``` 
-
----
-
 class: inverse, center
 
 # .fancy[Break]
@@ -980,6 +940,11 @@ countdown(
     margin       = "5%",
     font_size    = "8em"
 )
+```
+
+---
+
+```{r child="topics/4.Rmd"}
 ```
 
 ---
@@ -1312,7 +1277,7 @@ class: inverse, middle, center
 .center[Year-Month-Day]
 
 ```{r}
-ymd('2020-02-26')
+ymd('2025-09-10')
 ```
 ]
 
@@ -1325,8 +1290,8 @@ ymd('2020-02-26')
 .center[Year-Month-Day]
 
 ```{r}
-ymd('2020-02-26')
-ymd('2020 Feb 26')
+ymd('2025-09-10')
+ymd('2025 sep 10')
 ```
 
 ]
@@ -1340,10 +1305,10 @@ ymd('2020 Feb 26')
 .center[Year-Month-Day]
 
 ```{r}
-ymd('2020-02-26')
-ymd('2020 Feb 26')
-ymd('2020 Feb. 26')
-ymd('2020 february 26')
+ymd('2025-09-10')
+ymd('2025 Sep 10')
+ymd('2025 Sep. 10')
+ymd('2025 september 10')
 ```
 
 ]
@@ -1355,9 +1320,9 @@ ymd('2020 february 26')
 .center[Month-Day-Year]
 
 ```{r}
-mdy('February 26, 2020')
-mdy('Feb. 26, 2020')
-mdy('Feb 26 2020')
+mdy('September 10, 2025')
+mdy('Sep. 10, 2025')
+mdy('Sep 10 2025')
 ```
 
 ]
@@ -1369,9 +1334,9 @@ mdy('Feb 26 2020')
 .center[Day-Month-Year]
 
 ```{r}
-dmy('26 February 2020')
-dmy('26 Feb. 2020')
-dmy('26 Feb, 2020')
+dmy('10 September 2025')
+dmy('10 Sep. 2025')
+dmy('10 Sep, 2025')
 ```
 
 ]
@@ -1461,7 +1426,7 @@ On what day of the week were you born?
 .leftcol60[
 
 ```{r}
-wday("2024-09-01", label = TRUE)
+wday("2025-09-10", label = TRUE)
 ```
 
 ]
@@ -1505,7 +1470,7 @@ class: inverse
 What do you think will happen if we do this?
 
 ```{r}
-date <- ymd("2024-02-28")
+date <- ymd("2025-02-28")
 day(date) <- 30
 ```
 
@@ -1593,8 +1558,12 @@ wildlife_impacts %>%
 
 # Reminders:
 
-- You have **11** days until your [Project Proposal](https://eda.seas.gwu.edu/2024-Fall/project/1-proposal.html) is due. 
-- You have **13** days until your [Mini Project 1](https://eda.seas.gwu.edu/2024-Fall/mini/1-data-cleaning.html) is due.
+- You have **11** days until your [Project Proposal](https://eda.seas.gwu.edu/2025-Fall/project/1-proposal.html) is due.
+- You have **13** days until your [Mini Project 1](https://eda.seas.gwu.edu/2025-Fall/mini/1-data-cleaning.html) is due.
+
+<br>
+
+- Next week: **Project Proposal Meetings** - sign up **[HERE](https://calendar.app.google/niXopBudj9t4pmbj7)**
 
 ---
 
