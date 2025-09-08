@@ -643,7 +643,7 @@ class: middle
 
 # Late submissions
 
-## - **5** late days - use them anytime, no questions asked
+## - **3** late days - use them anytime, no questions asked
 ## - No more than **2** late days on any one assignment
 ## - Contact me for special cases
 
