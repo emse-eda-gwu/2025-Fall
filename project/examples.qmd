@@ -64,7 +64,7 @@ by [Anindya Mozumdar](https://radmuzom.com/about/). This analysis uses some stat
 
 ::: {.g-col-4}
 
-<img src="images/hamilton.png" width=100%>
+<img src="images/hamilton.png" width=80%>
 
 :::
 
@@ -74,6 +74,25 @@ by [Anindya Mozumdar](https://radmuzom.com/about/). This analysis uses some stat
 
 by Jonathan Bouchet. This is an extensive exploratory data analysis of a variety of data on races, drivers, and constructors across the history of [Formula 1](https://www.formula1.com/) racing. This would probably be overkill for a course project, but sections of it (e.g. section 3 on the races, or sections 4 and 5 together on the drivers and constructors) would make a nice project. It involves mutliple data sets, some not-so-simple data cleaning, and a wide variety of nice visualizations.
 
+
+:::
+
+:::
+
+
+::: {.grid}
+
+::: {.g-col-4}
+
+<img src="https://www.pbump.net/o/wp-content/uploads/2025/09/WTC.jpg" width=100%>
+
+:::
+
+::: {.g-col-8}
+
+### [What are we old enough to remember?](https://www.pbump.net/o/the-fading-immediacy-of-sept-11/)
+
+This is an interesting analysis of what different generations in the U.S. are old enough to remember, including important historical events like 9/11, the Challenger explosion, the JFK assassination, and the end of WWII.
 
 :::
 
