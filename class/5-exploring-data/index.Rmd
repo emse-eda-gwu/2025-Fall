@@ -41,9 +41,40 @@ daysToShip <- data.frame(
 
 ---
 
-class: center, middle, inverse
+class: inverse
 
-# Quiz solution
+# Quiz 1
+
+```{r, echo=FALSE}
+countdown(
+  minutes      = 12,
+  warn_when    = 30,
+  update_every = 1,
+  top          = 0,
+  right        = 0,
+  font_size    = '3em'
+)
+```
+
+.leftcol[
+
+## Write your name on the quiz!
+
+## Rules:
+
+- Work alone; no outside help of any kind is allowed.
+- No calculators, no notes, no books, no computers, no phones.
+
+]
+
+.rightcol[
+
+<br>
+<center>
+<img src="https://github.com/emse-p4a-gwu/2022-Spring/raw/main/images/quiz_doge.png" width="400">
+</center>
+
+]
 
 ---
 
@@ -1075,7 +1106,7 @@ countdown(
 
 ---
 
-## .center[Some pretty racist origins in [eugenics](https://en.wikipedia.org/wiki/Eugenics) ("well born")]
+## .center[Correlation: a rather racist origin in [eugenics](https://en.wikipedia.org/wiki/Eugenics) ("well born")]
 
 --
 
@@ -2020,16 +2051,3 @@ countdown(
 - Bar chart
 - Scatterplot
 - Boxplot
-
----
-
-class: inverse, middle
-
-# Reminders:
-
-## You have **4** days until your [Project Proposal](https://eda.seas.gwu.edu/2024-Fall/project/1-proposal.html) is due
-
-## You have **6** days until your [Mini Project 1](https://eda.seas.gwu.edu/2024-Fall/mini/1-data-cleaning.html) is due.
-
-##  [Sign up](https://docs.google.com/spreadsheets/d/1qhV29wAumIuFv2Cwmy-sgEirfTi3_a8OCUsqFUWNkzw/edit?usp=sharing) for meeting slot next week
-
