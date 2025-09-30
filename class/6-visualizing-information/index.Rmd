@@ -68,10 +68,10 @@ meta() %>%
     description = rmarkdown::metadata$subtitle,
     generator = "xaringan and remark.js"
   ) %>%
-  meta_name("github-repo" = "emse-eda-gwu/2024-Fall") %>%
+  meta_name("github-repo" = "emse-eda-gwu/2025-Fall") %>%
   meta_social(
     title = rmarkdown::metadata$title,
-    url = "https://eda.seas.gwu.edu/2024-Fall/",
+    url = "https://eda.seas.gwu.edu/2025-Fall/",
     og_type = "website",
     og_author = "John Paul Helveston",
     twitter_card_type = "summary_large_image",
@@ -80,7 +80,7 @@ meta() %>%
 
 # Setup class-specific paths
 class <- rmarkdown::metadata$class
-root <- paste0("https://eda.seas.gwu.edu/2024-Fall/class/", class, "/")
+root <- paste0("https://eda.seas.gwu.edu/2025-Fall/class/", class, "/")
 path_slides <- file.path("class", class, "index.html")
 path_pdf <- paste0(root, class, ".pdf")
 path_notes <- paste0(root, class, ".zip")
@@ -111,11 +111,12 @@ name: refs
 class: middle
 
 .rightcol80[
+
 # References:
 
-# - [Data Viz "Cheat Sheet"](https://github.com/emse-eda-gwu/2024-Fall/raw/main/content/cheatsheet-dataviz.pdf)
+# - [Data Viz "Cheat Sheet"](https://github.com/emse-eda-gwu/2025-Fall/raw/main/content/cheatsheet-dataviz.pdf)
 
-# - [Data Viz Reference Page](https://eda.seas.gwu.edu/2024-Fall/references.html#visualizing-data)
+# - [Data Viz Reference Page](https://eda.seas.gwu.edu/2025-Fall/references.html#visualizing-data)
 
 ]
 
@@ -1761,14 +1762,6 @@ class: center, middle
 ---
 
 class: center, middle
-
-### "Lie Factor" = $\frac{\text{Size of effect in graphic}}{\text{Size of effect in data}}$
-
----
-
-class: center, middle
-
-### "Lie Factor" = $\frac{\text{Size of effect in graphic}}{\text{Size of effect in data}} = \frac{\frac{5.3 - 0.6}{0.6}}{\frac{27.5 - 18}{18}} = \frac{7.83}{0.53} = 14.8$
 
 .leftcol60[.border[
 
