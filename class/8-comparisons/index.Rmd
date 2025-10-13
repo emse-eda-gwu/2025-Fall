@@ -860,7 +860,7 @@ class: center
 
 .leftcol[
 
-**Dodged bars `r emo::ji("sad")`**
+**Dodged bars** 😢
 
 ```{r, ref.label="milk-compare-dodged-toomany", echo=FALSE, fig.height=5, fig.width=7, fig.align='center'}
 ```
@@ -871,7 +871,7 @@ class: center
 
 .rightcol[
 
-**Dumbbell bars `r emo::ji("smile")`**
+**Dumbbell bars** 😄
 
 ```{r milk-summary-dumbbell, echo=FALSE}
 top10states <- milk_production %>%
@@ -922,7 +922,7 @@ class: center
 
 .leftcol[
 
-**Dodged bars `r emo::ji("sad")`**
+**Dodged bars** 😢
 
 ```{r, ref.label="milk-compare-dodged-toomany", echo=FALSE, fig.height=5, fig.width=7, fig.align='center'}
 ```
@@ -933,7 +933,7 @@ class: center
 
 .rightcol[
 
-**Slope chart `r emo::ji("smile")`**
+**Slope chart** 😄
 
 ```{r milk-summary-slope, echo=FALSE}
 top10states <- milk_production %>%
@@ -2033,4 +2033,4 @@ gapminder_2007 %>%
 
 class: middle, center
 
-# Reminder:<br>Your [Progress Report](https://eda.seas.gwu.edu/2024-Fall/project/2-progress-report.html) is due in 10 days!
+# Reminder:<br>Your [Progress Report](https://eda.seas.gwu.edu/2025-Fall/project/2-progress-report.html) is due in 11 days!
