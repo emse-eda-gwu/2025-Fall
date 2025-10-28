@@ -2791,4 +2791,12 @@ theme_set(theme_minimal_grid())
 
 ---
 
+class: middle, center
+
 # Check out [these Quarto tricks](https://www.productive-r-workflow.com/quarto-tricks), by Yan Holtz
+
+---
+
+class: middle, center
+
+# Reminder: [Mini 3](https://eda.seas.gwu.edu/2025-Fall/mini/3-redesign.html) due 11/11
