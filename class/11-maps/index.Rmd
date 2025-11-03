@@ -37,27 +37,29 @@ class: inverse
 
 ```{r, echo=FALSE}
 countdown(
-    minutes = 10,
-    warn_when = 30,
-    update_every = 1,
-    bottom = 0,
-    left = 0,
-    font_size = '4em'
+  minutes      = 12,
+  warn_when    = 30,
+  update_every = 1,
+  top          = 0,
+  right        = 0,
+  font_size    = '3em'
 )
 ```
 
 .leftcol[
 
-### Download the template from the #class channel
+## Write your name on the quiz!
 
-### Make sure you unzip it!
+## Rules:
 
-### When done, submit your `quiz4.qmd` on Blackboard
+- Work alone; no outside help of any kind is allowed.
+- No calculators, no notes, no books, no computers, no phones.
 
 ]
 
 .rightcol[
 
+<br>
 <center>
 <img src="https://github.com/emse-p4a-gwu/2022-Spring/raw/main/images/quiz_doge.png" width="400">
 </center>
@@ -1206,9 +1208,7 @@ class: center
 
 ## What's a map projection?
 
-<center>
-<iframe width="700" height="394" src="https://www.youtube.com/embed/kIID5FDi2JQ?start=52" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kIID5FDi2JQ?si=VydsCWYDsk_33O1D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -1216,11 +1216,7 @@ class: center
 
 <br>
 
-# 1. [Compare projections](http://metrocosm.com/compare-map-projections.html)
-
-<br>
-
-# 2. [Compare country sizes](https://thetruesize.com/)
+# [Compare country sizes](https://thetruesize.com/)
 
 ---
 
@@ -1762,11 +1758,11 @@ Mercator Projection
 
 ---
 
-# Remember: Mini Project 3 Due 11/19
+# Remember: Mini Project 3 Due 11/11
 
-## (That's 2 weeks)
+## (That's <1 week!)
 
-### https://eda.seas.gwu.edu/2024-Fall/mini/3-redesign.html
+### https://eda.seas.gwu.edu/2025-Fall/mini/3-redesign.html
 
 ---
 
