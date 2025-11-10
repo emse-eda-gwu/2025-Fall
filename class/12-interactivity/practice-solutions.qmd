@@ -43,6 +43,7 @@ library(cowplot)
 library(rnaturalearth)
 library(rnaturalearthhires)
 library(rnaturalearthdata)
+library(rvest)
 
 # New
 library(leaflet)
@@ -81,7 +82,7 @@ dumbbell_chart <- internet_regions_compare %>%
   ggplot(aes(x = numUsers, y = region)) +
   geom_line(
     aes(group = region),
-    color = 'lightblue', size = 1) +
+    color = 'lightblue', linewidth = 1) +
     geom_point(aes(color = year), size = 2.5) +
     scale_color_manual(values = c('lightblue', 'steelblue')) +
     scale_x_continuous(limits = c(0, 1200)) +
@@ -114,10 +115,24 @@ Use `reactable()` to make the following interactive table
 Read [this example](https://kcuilla.github.io/reactablefmtr/articles/embed_img.html) and use the `gapminder_flags` data frame
 
 ```{r}
+# Webscrape to get the urls to images of each flag by country name
+# Source: https://www.countryflags.com/
+
+country_flags <- data.frame(
+  flag = read_html('https://www.countryflags.com/') %>%     
+    html_nodes('img') %>% 
+    html_attr('src') 
+) %>% 
+  mutate(
+    country = str_replace(flag, 'https://cdn.countryflags.com/thumbs/', ''),
+    country = str_replace(country, '/flag-square-250.png', '')
+  )
+
+# Join on flag urls to gapminder data
 gapminder_flags <- gapminder %>%
-  mutate(flag = paste(
-    "https://flagshub.com/images/flag-of-",
-    str_to_lower(country), ".png", sep = "")) %>%
+  filter(year == 2007) %>% 
+  mutate(country = str_to_lower(country)) %>% 
+  left_join(country_flags, by = 'country') %>% 
   select(flag, country, everything())
 ```
 

@@ -8,4 +8,4 @@ execute:
   message: false
 ---
 
-No class this week - sign up **[HERE]()** for your final workshop meeting with Professor Helveston
+No class this week - sign up **[HERE](https://calendar.app.google/5LjaxYYPa7cHCAF5A)** for your final workshop meeting with Professor Helveston
