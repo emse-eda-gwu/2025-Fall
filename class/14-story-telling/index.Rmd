@@ -32,7 +32,7 @@ output:
 
 class: middle, center
 
-# Download [this cheetsheet](https://github.com/emse-eda-gwu/2024-Fall/raw/main/content/cheatsheet-storytelling.pdf) for today's content
+# Download [this cheetsheet](https://github.com/emse-eda-gwu/2025-Fall/raw/main/content/cheatsheet-storytelling.pdf) for today's content
 
 ---
 
@@ -562,37 +562,6 @@ class: middle, center
 
 ---
 
-class: inverse
-
-# Quiz 5
-
-```{r, echo=FALSE}
-countdown(
-    minutes = 10,
-    warn_when = 30,
-    update_every = 1,
-    bottom = 0,
-    left = 0,
-    font_size = '4em'
-)
-```
-
-.leftcol[
-
-### Check the class slack for instructions
-
-]
-
-.rightcol[
-
-<center>
-<img src="https://github.com/emse-p4a-gwu/2022-Spring/raw/main/images/quiz_doge.png" width="400">
-</center>
-
-]
-
----
-
 ```{r child="topics/3.Rmd"}
 ```
 
@@ -688,7 +657,7 @@ Afterwards, we will go around the room and one person from each team will practi
 
 ---
 
-# .center[[Final Reports](https://eda.seas.gwu.edu/2024-Fall/project/3-final-report.html) due 12/08<br>(You have 4 days left!)]
+# .center[[Final Reports](https://eda.seas.gwu.edu/2025-Fall/project/3-final-report.html) due 12/07<br>(You have 4 days left!)]
 
 --
 
@@ -712,7 +681,7 @@ spelling::spell_check_files("report.qmd")
 
 ---
 
-# .center[[Final Presentations](https://eda.seas.gwu.edu/2024-Fall/project/4-presentation.html) (Slides Due 12/10)]
+# .center[[Final Presentations](https://eda.seas.gwu.edu/2025-Fall/project/4-presentation.html) (Slides Due 12/09)]
 
 </br>
 
@@ -725,9 +694,9 @@ spelling::spell_check_files("report.qmd")
 
 ---
 
-# .center[[Final Interviews](https://eda.seas.gwu.edu/2024-Fall/class/interviews) (12/09 - 12/10)]
+# .center[[Final Interviews](https://eda.seas.gwu.edu/2025-Fall/class/interviews) (12/08 - 12/09)]
 
-- ### Schedule for a 10-minute interview using [this link](https://calendar.app.google/21TiEPKvCF5A5AgY9)</br>(will also be posted in Slack)
+- ### Schedule for a 10-minute interview using [this link](https://calendar.app.google/JirZBvZbX76T9heY6)
 
 --
 
