@@ -27,89 +27,73 @@ output:
 
 class: center, middle
 
-# [Air Sciencia: Evaluating Airline Performance](https://youtu.be/XbTvNAiVCGc)
+# Analysis of Global Insulin Supply
 
-## by Sasha Green, Arman Naseh, Jake Anszelowicz, and Amine Louri
-
----
-
-class: center, middle
-
-# [Evolving Trends in Cyber Events:<br>Insights from a Decade of Data](https://www.canva.com/design/DAGYPOA5cNQ/5mCLl8Ph1XLqyW3ZObjqMw/view?utm_content=DAGYPOA5cNQ&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=uniquelinks&amp;utlId=h553d00ae54)
-
-## by Annie Goodman and Etiene Effiong
+## by Nick Pennino, Shannon Zhang,<br>Taegeon Bae, and Sung Jung
 
 ---
 
 class: center, middle
 
-# Changes in the European Energy Market due the Russia-Ukraine War
+# [Following the Funding:<br>DEI Trends in NSF Grants, 2018–2025](https://www.youtube.com/watch?v=ENYGzhK1u9E)
 
-## by Gavin Ulrich and Byeonghun Kwon
-
----
-
-class: center, middle
-
-# Assessing EV accessibility and affordability in the United States
-
-## by Daniel Fisher and Zain Hoda
+## by Aisha Tarar, Chenxi Zhou, and Yousra Elzamzami
 
 ---
 
 class: center, middle
 
-# Global Energy Analysis: How do countries achieve economic growth while maintaining low energy intensity?
+# Fakes on the Rise
 
-## by Angel Ho and Easha Rajalaxmi Vivesh
-
----
-
-class: center, middle
-
-# Understanding Movie Performance Through Data: Financial Trends, Ratings, and Profitability from TMDB and Rotten Tomatoes
-
-## by Ibrahim Ahmed and Paul Asamoah Boadu
+## by Eunice, Donia, Elena, and Andrea
 
 ---
 
 class: center, middle
 
-# Cracking The NCAA Team Rankings Code: The Attributes of the Best NCAA Football Playoff Teams Over a Decade
+# [Degrees of Inequality:<br>The Story of Education in America](https://vimeo.com/1144711990?fl=pl&fe=sh)
 
-## by Kyla Rounsoville, Maddie Wilson, and Alana Lee
-
----
-
-class: center, middle
-
-# Understanding Traffic Crashes in New York City
-
-## by Ali Irtaza and Tarun Kumanduri
+## by Leshauna Hartman and Maya Schmidt
 
 ---
 
 class: center, middle
 
-# [Analyzing Olympic Success: Analyzing the Correlation Between Medal Count and Socioeconomic Factors](https://docs.google.com/presentation/d/16FkGQOGbbsJWybBEhIBIxmaLkjNrXmvraF9JIaTTyXM/edit#slide=id.g2d6a80122c9_0_354)
+# US Vehicle Market Trends Analysis:<br>Exploring Mileage, Depreciation, and Market Concentration Across Powertrains
 
-## by Hannah Hodge, Sandy Alksninis, Jedidiah Bechtel, and Aedan Bayhan
-
----
-
-class: center, middle
-
-# [Shark Incidents in California](https://vimeo.com/1038058323?share=copy#t=0)
-
-## by Luis Bracho, Diego Farah, and Diego Paredes
+## by Nithin Sarva, Jake Springer,<br>and Jagannath Narayanaswamy
 
 ---
 
 class: center, middle
 
-# [Car Bloat in the United States: Do Americans have an obsession with big vehicles?](https://vimeo.com/1038262009)
+# Electric Vehicles and the<br>Future of Highway Funding
 
-## by Ifeoluwa Olaniyan and Emmanuel Agbeko
+## by Eric Lehman, Lydia Ko, Sam Evans, and Hailey Kopp
+
+---
+
+class: center, middle
+
+# Basketball Teams with Most Loyal Fans
+
+## by Evelina Naumovich and Katya Balin
+
+---
+
+class: center, middle
+
+# The Study of Home Advantage<br>in the English Premier League
+
+## by Badr Ismail, Sammy Sorayanejad,<br>Sergio Ley, and Tomas Haché Caro
+
+---
+
+class: center, middle
+
+# Trustworthiness of the<br>New York City Subway System
+
+## by Ernest Giahyue, Lawrenz Pacayo,<br>Sean Smolyanskiy, and Yusuf Ozaydin
 
 ---
 
@@ -127,40 +111,30 @@ class: center, middle, inverse
 
 class: center, middle 
 
-# **Shiny Nominee**: Global Energy Analysis
+# **Shiny Nominee**: Trustworthiness of the<br>New York City Subway System
 
 <center>
-<img src="images/global-energy-analysis.png" width=900>
+<img src="images/shooting-map.png" width=900>
 </center>
 
 ---
 
 class: center, middle 
 
-# **Shiny Nominee**: Cyber Events
+# **Shiny Nominee**: Electric Vehicles and the<br>Future of Highway Funding
 
 <center>
-<img src="images/cyber-events.png" width=700>
+<img src="images/gas-tax.png" width=800>
 </center>
 
 ---
 
 class: center, middle 
 
-# **Shiny Nominee**: NYC Trafic Crashes
+# **Shiny Nominee**: Degrees of Inequality:<br>The Story of Education in America
 
 <center>
-<img src="images/nyc-traffic-crashes.png" width=1100>
-</center>
-
----
-
-class: center, middle 
-
-# **Shiny Nominee**: Shark Attacks
-
-<center>
-<img src="images/shark-attacks.png" width=1000>
+<img src="images/education.png" width=800>
 </center>
 
 ---
@@ -177,16 +151,16 @@ class: center, middle, inverse
 
 .leftcol[
 
-## [Evolving Trends in Cyber Events: Insights from a Decade of Data](https://eda.seas.gwu.edu/showcase/2024-Fall/cyber-events.html)
+## [Electric Vehicles and the<br>Future of Highway Funding](https://eda.seas.gwu.edu/showcase/2025-Fall/name.html)
 
-#### by Annie Goodman and Etiene Effiong
+#### by Eric Lehman, Lydia Ko, Sam Evans, and Hailey Kopp
 
 ]
 
 .rightcol[
 
 <center>
-<img src="images/cyber-events.png" width=100%>
+<img src="images/gas-tax.png" width=100%>
 </center>
 
 ]
@@ -199,19 +173,11 @@ class: center, middle, inverse
 
 .cols3[
 
-### Car Bloat in the United States: Do Americans have an obsession with big vehicles?
+### Electric Vehicles and the Future of Highway Funding
 
-#### by Ifeoluwa Olaniyan and Emmanuel Agbeko
+#### by Eric Lehman, Lydia Ko, Sam Evans, and Hailey Kopp
 
-]
-
---
-
-.cols3[
-
-### Cracking The NCAA Team Rankings Code: The Attributes of the Best NCAA Football Playoff Teams Over a Decade
-
-#### by Kyla Rounsoville, Maddie Wilson, and Alana Lee
+(for combining lots of different data files)
 
 ]
 
@@ -219,9 +185,23 @@ class: center, middle, inverse
 
 .cols3[
 
-### Assessing EV accessibility and affordability in the United States
+### Degrees of Inequality: The Story of Education in America
 
-#### by Daniel Fisher and Zain Hoda
+#### by Leshauna Hartman and Maya Schmidt
+
+(Dealt with 52 different government Excel sheet)
+
+]
+
+--
+
+.cols3[
+
+### Trustworthiness of the New York City Subway System
+
+#### by Ernest Giahyue, Lawrenz Pacayo,<br>Sean Smolyanskiy, and Yusuf Ozaydin
+
+(Lots of data in PDFs)
 
 ]
 
@@ -237,9 +217,13 @@ class: center, middle, inverse
 
 # 🎉🎉🎉
 
-## Cracking The NCAA Team Rankings Code: The Attributes of the Best NCAA Football Playoff Teams Over a Decade
+## Degrees of Inequality: The Story of Education in America
 
-### by Kyla Rounsoville, Maddie Wilson, and Alana Lee
+### by Leshauna Hartman and Maya Schmidt
+
+<br>
+
+(Final report.qmd was over 7,000 lines!)
 
 ---
 
