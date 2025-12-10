@@ -132,9 +132,19 @@ class: center, middle
 
 # **Shiny Nominee**: Electric Vehicles and the<br>Future of Highway Funding
 
+.leftcol70[
+
 <center>
-<img src="images/gas-tax.png" width=800>
+<img src="images/gas-tax.png" width=100%>
 </center>
+
+]
+
+.rightcol30[
+
+(And also [this chart](https://eda.seas.gwu.edu/showcase/2025-Fall/ev-taxes.html#results))
+
+]
 
 ---
 
