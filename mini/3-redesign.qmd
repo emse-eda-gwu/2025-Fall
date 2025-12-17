@@ -94,7 +94,7 @@ Variable                        | Description
 
 # 3. Preview the data
 
-In the setup chunk in your `report.Rmd` file, write code to read in the excel sheet, then write code to preview the data, e.g. using `head()`, `glimpse()`, `View()`, and / or make some quick plots (**Hint**: look at the top and bottom!). Take note of what variables are available, their types, what they measure, and if there are any missing values. (**Hint**: Read the data dictionary!) Are all the variables encoded the way you would expect (e.g. are numbers encoded as numbers?)
+In the setup chunk in your `report.qmd` file, write code to read in the excel sheet, then write code to preview the data, e.g. using `head()`, `glimpse()`, `View()`, and / or make some quick plots (**Hint**: look at the top and bottom!). Take note of what variables are available, their types, what they measure, and if there are any missing values. (**Hint**: Read the data dictionary!) Are all the variables encoded the way you would expect (e.g. are numbers encoded as numbers?)
 
 # 4. Clean the data
 
@@ -109,7 +109,7 @@ In the setup chunk in your `report.Rmd` file, write code to read in the excel sh
 # 6. Visualize the data
 
 1. Create an appropriate visualization that highlights leadership in _installed capacity_. This chart should be a substantial improvement over the original visualization, and it should follow the design principles we have covered in class.
-2. Create a second visualization that highlights "leadership" in another metric of your choice. This could be one of the existing variables or a variable you computed. Your chart and design choices should highlight the metric you chose and should have a clear message to convey. Again, this chart should follow the design principles we have covered in class.
+2. Create a second visualization that highlights "leadership" in another metric of your choice. This could be one of the existing variables or a variable you computed. Your chart and design choices should highlight the metric you chose and should have a clear message to convey. Again, this chart should follow the design principles we have covered in class. **This chart should be a different style from your first chart**, so don't just copy-paste over the same thing and apply it to a new metric. Be creative and try something different for your second chart!
 
 **Your charts should be polished**. Points will be taken off for poor design principles, illegibility, etc.
 
